@@ -2,11 +2,13 @@ import arData from 'react-intl/locale-data/ar';
 import enData from 'react-intl/locale-data/en';
 import esData from 'react-intl/locale-data/es';
 import frData from 'react-intl/locale-data/fr';
+import ruData from 'react-intl/locale-data/ru';
 import zhData from 'react-intl/locale-data/zh';
 
 import './ar.json';
 import './es_419.json';
 import './fr.json';
+import './ru.json';
 import './zh_CN.json';
 
 // Methodology: These languages (plus the default english) are the only ones that appear on edx.org
@@ -22,6 +24,7 @@ const localeDataMap = {
   'en': enData,
   'es-419': esData,
   'fr': frData,
+  'ru': ruData,
   'zh-cn': zhData,
 };
 
